@@ -1,0 +1,4 @@
+class WordnikController < ApplicationController
+ 
+	
+end
