@@ -7,7 +7,7 @@
       <h1>Welcome to DevD</h3>
 
       <p>
-        <% form_tag('/wordnik', :method=>'get') do -%>
+        <%= form_tag('/wordnik', :method =>'get') do %>
           Look up a word: 
           <%= text_field_tag('word_search') %>
           <%= submit_tag('Search') %>
